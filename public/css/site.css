@@ -1,0 +1,39 @@
+/*Styling for Index.html*/
+.infobox{
+  background-color: azure;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 70px;
+
+}
+.mainbox{
+    background-color: aquamarine;
+    
+}
+.letterbox{
+    background-color: azure;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    border: 10px;
+}
+img{
+    height: 200px;
+}
+p {
+  font-family: "Times New Roman", Times, serif;
+}
+h1{
+    text-align: center;
+  font-family: "Georgia", Georgia, serif;
+    
+}
+
+/*Table styles for Pages.html */
+.tablebox{
+    background-color: aquamarine;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+        border-bottom: 1px solid black;
+    
+}
