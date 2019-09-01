@@ -18,7 +18,7 @@
     border: 10px;
 }
 img{
-    height: 200px;
+    height: 220px;
 }
 p {
   font-family: "Times New Roman", Times, serif;
@@ -30,10 +30,41 @@ h1{
 }
 
 /*Table styles for Pages.html */
-.tablebox{
-    background-color: aquamarine;
-}
+
 .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
         border-bottom: 1px solid black;
+        text-align: center;
+}
+.thistable{
+    position: sticky;
+    margin: 10px;
+    padding: 20px;
+    background-color: aliceblue;
+    }    
+
+/*Para style*/
+.para{
+    background-color: aqua;
     
 }
+
+nav{
+    background-color: mediumaquamarine;
+    padding: 5px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav>li {
+  display: inline;
+    float: left;
+}
+a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+    text-decoration: none;
+}
+

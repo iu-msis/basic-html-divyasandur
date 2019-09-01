@@ -9,7 +9,8 @@ In Canvas, submit a link to your GitHub repository.
 
 * Files are organized in a professional way. All publicly visible files, including HTML files, exist in a folder named 'public'. CSS file(s) in a folder named 'css' (i.e., 'public/css'), Javascript files (if any) in a folder named 'js', image files in a folder named 'img', and all other files (if any, e.g., font files) in a folder named 'static'.
 
-* All files have web-appropriate names (no spaces; use dash or underscore), and appropriate extensions (\*.htm, \*.html, \*.css, etc.)
+* DONE        
+All files have web-appropriate names (no spaces; use dash or underscore), and appropriate extensions (\*.htm, \*.html, \*.css, etc.)
 
 * Three separate HTML pages, including 'index'. Home page named 'index.htm' or 'index.html'
 
