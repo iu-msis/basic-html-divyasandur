@@ -1,15 +1,36 @@
 <html>
 <head>
   <title>Books</title>
-  <link rel="stylesheet" href="css/site.css">
+<!--Compiled and minified CSS-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!--jQuery CDN-->
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+
+<!--Compiled and minified JavaScript-->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="css/site.css">
 </head>
 
-<body>
+<body class="mainbody">
+
+    <div class ="container mainbox">
+    <h1 class="headings">Ruby's Treasure</h1>
+        <header>
+            <div id="nav-placeholder">
+            </div>
+            <script>
+            $(function(){
+            $("#nav-placeholder").load("header2.html");
+            });
+            </script>
+        </header>
+  <div data-include="header"></div>
     <h1>
     Explore the world of Books!
     </h1>
-    <div class ="container">
-    <main class="row tablebox">
+    <main class="row ">
+
     <table class="thistable table table-condensed table-hover">
         <thead>
             <tr>
@@ -57,6 +78,12 @@
 
         </tbody>
         </table>
+
+<div class="card">
+  <div class="card-body">
+    This is some text within a card body.
+  </div>
+</div>
     </main>
     </div>
 </body>

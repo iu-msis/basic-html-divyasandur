@@ -1,3 +1,7 @@
+/*Main o=body background*/
+.mainbody{
+    background-image: url(/public/img/bg.jpeg);
+}
 /*Styling for Index.html*/
 .infobox{
   background-color: azure;
@@ -7,8 +11,7 @@
 
 }
 .mainbox{
-    background-color: aquamarine;
-    
+    background: rgba(0, 0, 0, 0.80);
 }
 .letterbox{
     background-color: azure;
@@ -26,7 +29,11 @@ p {
 h1{
     text-align: center;
   font-family: "Georgia", Georgia, serif;
+    color: white;
     
+}
+.headings{
+    text-align: left;
 }
 
 /*Table styles for Pages.html */
@@ -36,12 +43,17 @@ h1{
         text-align: center;
 }
 .thistable{
-    position: sticky;
+    table-layout:auto;
     margin: 10px;
-    padding: 20px;
+    padding: 50px;
     background-color: aliceblue;
+    width: inherit;
+    position: relative;
     }    
-
+.tablebox{
+    background-color: rosybrown;
+    padding: 50px;
+}
 /*Para style*/
 .para{
     background-color: aqua;
