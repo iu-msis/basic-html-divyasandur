@@ -60,12 +60,16 @@ background-color: white   ;/*Link found from finding the element in F12 help on 
     margin-left: 50px;
     padding: 50px;
     background-color: aliceblue;
-    width: inherit;
+    width:auto;
     position: relative;
+    border-radius: 10px;
     }    
 .tablebox{
     background-color: rosybrown;
     padding: 50px;
+}
+th, td {
+  border-bottom: 1px solid #ddd;
 }
 /*Para style*/
 .para{
@@ -86,11 +90,11 @@ nav>li {
   display: inline;
     float: left;
 }
-a {
+.nava{
   display: block;
   padding: 8px;
   background-color: #dddddd;
-    text-decoration: none;
+  text-decoration: none;
 }
 .bookform{
     width: 1000;
